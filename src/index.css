@@ -1,0 +1,36 @@
+@import './assets/styles.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* دعم RTL مخصص */
+@layer base {
+  html {
+    direction: rtl;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    direction: rtl;
+    text-align: right;
+  }
+}
+
+@layer utilities {
+  .rtl {
+    direction: rtl;
+  }
+
+  .ltr {
+    direction: ltr;
+  }
+
+  .text-start {
+    text-align: start;
+  }
+
+  .text-end {
+    text-align: end;
+  }
+}
