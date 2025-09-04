@@ -1,9 +1,9 @@
 /* src/assets/styles.css - تصميم احترافي متقدم */
+@reference "tailwindcss";
 
 /* متغيرات CSS محسنة */
 :root {
   /* ألوان أساسية */
-  @reference "tailwindcss";
 
   --primary-50: #f0f9ff;
   --primary-100: #e0f2fe;
