@@ -1,13 +1,12 @@
 /* src/index.css */
 
-/* 1) استورد Tailwind v4 */
+/* v4: سطر واحد لاستيراد تايلويند */
 @import "tailwindcss";
 
-/* 2) استورد ملف تصميمك الكبير بعد Tailwind
-   (عشان الـ @apply واليوتيليتيز تُحل بشكل صحيح) */
+/* استورد تصميمك بعده */
 @import "./assets/styles.css";
 
-/* 3) إضافات RTL/قواعد عامة بسيطة */
+/* قواعد RTL بسيطة */
 @layer base {
   html { direction: rtl; }
   body {
